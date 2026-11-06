@@ -43,10 +43,3 @@ Every day new tools drop, and I like to grab them, actually use them, and turn w
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Thanawat-ONZro&hide_border=true&background=141a46&ring=e63946&fire=f6a65a&currStreakLabel=f6a65a&sideLabels=eef0ff&currStreakNum=eef0ff&sideNums=eef0ff&dates=a9b0e0&stroke=6c63c7"/>
 </div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thanawat-ONZro/Thanawat-ONZro/output/snake-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/Thanawat-ONZro/Thanawat-ONZro/output/snake.svg" alt="snake"/>
-  </picture>
-</div>
