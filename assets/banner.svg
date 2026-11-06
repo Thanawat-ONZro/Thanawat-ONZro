@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1030"/>
+      <stop offset="0.45" stop-color="#2d2a6e"/>
+      <stop offset="0.75" stop-color="#b4568c"/>
+      <stop offset="1" stop-color="#f6a65a"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e8f4ff" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.4" stop-color="#a8d8ff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#a8d8ff" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .s{fill:#fff;animation:tw 3s ease-in-out infinite}
+      .s:nth-child(2n){animation-delay:.8s;animation-duration:2.2s}
+      .s:nth-child(3n){animation-delay:1.6s;animation-duration:4s}
+      .s:nth-child(5n){animation-delay:.3s}
+      @keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+      .comet{animation:fly 7s cubic-bezier(.4,0,.6,1) infinite}
+      .comet2{animation:fly2 7s cubic-bezier(.4,0,.6,1) infinite}
+      @keyframes fly{0%{transform:translate(-300px,-120px);opacity:0}8%{opacity:1}60%{opacity:1}75%,100%{transform:translate(1300px,330px);opacity:0}}
+      @keyframes fly2{0%,40%{transform:translate(500px,40px);opacity:0}48%{opacity:1}90%,100%{transform:translate(1350px,240px);opacity:0}}
+      .thread{fill:none;stroke:#e63946;stroke-width:3;stroke-linecap:round;stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 6s ease-in-out infinite alternate;filter:drop-shadow(0 0 4px #ff4d6d)}
+      @keyframes draw{to{stroke-dashoffset:0}}
+      .title{font:800 64px 'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;fill:#fff;letter-spacing:2px;animation:fade 1.6s ease-out both}
+      .sub{font:500 22px 'Segoe UI',Ubuntu,sans-serif;fill:#ffe9d6;letter-spacing:4px;animation:fade 1.6s .6s ease-out both}
+      @keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+      .cloud{fill:#ffd6e7;opacity:.18;animation:drift 30s linear infinite}
+      @keyframes drift{from{transform:translateX(-200px)}to{transform:translateX(1300px)}}
+    </style>
+  </defs>
+  <rect width="1200" height="380" fill="url(#sky)"/>
+  <g>
+    <circle class="s" cx="60" cy="40" r="1.6"/><circle class="s" cx="140" cy="90" r="1.2"/>
+    <circle class="s" cx="220" cy="30" r="2"/><circle class="s" cx="310" cy="70" r="1.3"/>
+    <circle class="s" cx="390" cy="25" r="1.7"/><circle class="s" cx="470" cy="110" r="1.1"/>
+    <circle class="s" cx="560" cy="50" r="1.9"/><circle class="s" cx="640" cy="20" r="1.2"/>
+    <circle class="s" cx="720" cy="85" r="1.5"/><circle class="s" cx="800" cy="35" r="2.1"/>
+    <circle class="s" cx="880" cy="100" r="1.2"/><circle class="s" cx="960" cy="45" r="1.8"/>
+    <circle class="s" cx="1040" cy="80" r="1.3"/><circle class="s" cx="1120" cy="30" r="1.9"/>
+    <circle class="s" cx="1170" cy="120" r="1.1"/><circle class="s" cx="100" cy="150" r="1"/>
+    <circle class="s" cx="1000" cy="150" r="1"/><circle class="s" cx="680" cy="140" r="1.1"/>
+    <circle class="s" cx="260" cy="140" r="1"/><circle class="s" cx="840" cy="160" r="1"/>
+  </g>
+  <ellipse class="cloud" cx="0" cy="230" rx="160" ry="18"/>
+  <ellipse class="cloud" cx="-500" cy="260" rx="220" ry="22" style="animation-duration:45s"/>
+  <g class="comet">
+    <line x1="-260" y1="-90" x2="0" y2="0" stroke="url(#tail)" stroke-width="4" stroke-linecap="round"/>
+    <circle r="16" fill="url(#glow)"/><circle r="3.5" fill="#fff"/>
+  </g>
+  <g class="comet2">
+    <line x1="-140" y1="-40" x2="0" y2="0" stroke="url(#tail)" stroke-width="2.5" stroke-linecap="round"/>
+    <circle r="10" fill="url(#glow)"/><circle r="2.2" fill="#fff"/>
+  </g>
+  <path d="M0 330 L60 318 L90 300 L120 312 L170 296 L200 305 L240 285 L270 300 L330 292 L360 310 L420 300 L470 312 L520 296 L560 306 L620 290 L660 304 L720 298 L760 312 L820 294 L860 306 L900 286 L940 300 L990 296 L1040 310 L1090 292 L1140 306 L1200 298 L1200 380 L0 380Z" fill="#1a1238" opacity=".85"/>
+  <path d="M0 350 L80 342 L140 352 L210 338 L300 350 L380 340 L470 352 L560 344 L650 354 L740 342 L830 352 L920 340 L1010 350 L1100 342 L1200 350 L1200 380 L0 380Z" fill="#0d0a22"/>
+  <path class="thread" d="M40 360 C 220 260, 330 380, 500 300 S 760 230, 880 300 S 1080 360, 1170 250"/>
+  <text x="600" y="185" text-anchor="middle" class="title">Hi, I'm OWEN</text>
+  <text x="600" y="228" text-anchor="middle" class="sub">COMPUTER ENGINEER · BUILDER · TOOL EXPLORER</text>
+</svg>

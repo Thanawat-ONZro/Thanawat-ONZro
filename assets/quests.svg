@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1d55"/><stop offset="1" stop-color="#121640"/>
+    </linearGradient>
+    <style>
+      text{font-family:'Segoe UI',Ubuntu,'Noto Sans Thai','Leelawadee UI',sans-serif;fill:#eef0ff}
+      .h{font-size:13px;letter-spacing:3px;fill:#f6a65a;font-weight:700}
+      .t{font-size:24px;font-weight:800}.d{font-size:15px;fill:#c3c8ef}
+      .badge{animation:pulse 2s ease-in-out infinite;transform-origin:810px 70px}
+      @keyframes pulse{50%{transform:scale(1.08)}}
+      .star{fill:#ffd166;animation:spin 6s linear infinite;transform-origin:56px 112px}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      .dot{fill:#e63946;animation:ld 1.4s infinite}.dot:nth-of-type(2){animation-delay:.2s}.dot:nth-of-type(3){animation-delay:.4s}
+      @keyframes ld{0%,80%,100%{opacity:.15}40%{opacity:1}}
+      .lock{animation:shake 4s ease-in-out infinite;transform-origin:56px 240px}
+      @keyframes shake{0%,90%,100%{transform:rotate(0)}93%{transform:rotate(-12deg)}96%{transform:rotate(12deg)}}
+    </style>
+  </defs>
+  <rect x="4" y="4" width="892" height="292" rx="14" fill="url(#bg)" stroke="#6c63c7" stroke-width="2"/>
+  <text x="36" y="44" class="h">▶ QUEST LOG</text>
+  <g class="badge">
+    <rect x="740" y="54" width="140" height="32" rx="16" fill="#e63946"/>
+    <text x="810" y="76" text-anchor="middle" font-size="14" font-weight="800" fill="#fff">★ CLEARED</text>
+  </g>
+  <path class="star" d="M56 92 l6 13 14 2 -10 10 2 14 -12 -7 -12 7 2 -14 -10 -10 14 -2z"/>
+  <text x="90" y="104" class="t">Wathasin — Co-founder</text>
+  <text x="90" y="128" class="d">“ฝึกพูดกับ AI ก่อนใช้จริง” · rehearse pitches, presentations &amp; interviews with AI</text>
+  <text x="90" y="152" class="d" fill="#ffd166" style="fill:#ffd166">🏆 Winner — JUMP Thailand Hackathon 2026 (AIS Academy)</text>
+  <line x1="36" y1="186" x2="864" y2="186" stroke="#6c63c7" stroke-opacity=".5" stroke-dasharray="4 6"/>
+  <g class="lock">
+    <rect x="44" y="238" width="24" height="20" rx="3" fill="#9aa0d6"/>
+    <path d="M49 238 v-7 a7 7 0 0 1 14 0 v7" fill="none" stroke="#9aa0d6" stroke-width="3"/>
+  </g>
+  <text x="90" y="236" class="t">??? — Stealth Startup</text>
+  <text x="90" y="262" class="d">Classified. Currently in progress</text>
+  <circle class="dot" cx="322" cy="257" r="3"/><circle class="dot" cx="334" cy="257" r="3"/><circle class="dot" cx="346" cy="257" r="3"/>
+</svg>

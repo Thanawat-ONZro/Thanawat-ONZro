@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141a46"/><stop offset="1" stop-color="#3a2560"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0" stop-color="#f6a65a"/><stop offset="1" stop-color="#e05a8e"/>
+    </linearGradient>
+    <style>
+      text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;fill:#eef0ff}
+      .mono{font-family:'JetBrains Mono',Consolas,Menlo,monospace}
+      .h{font-size:13px;letter-spacing:3px;fill:#f6a65a;font-weight:700}
+      .k{font-size:15px;fill:#a9b0e0}.v{font-size:15px;font-weight:600}
+      .fill{animation:grow 1.8s cubic-bezier(.2,.8,.2,1) both}
+      @keyframes grow{from{width:0}}
+      .cur{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+      .frame{fill:none;stroke:#f6a65a;stroke-width:2;stroke-dasharray:8 6;animation:march 12s linear infinite}
+      @keyframes march{to{stroke-dashoffset:-280}}
+    </style>
+  </defs>
+  <rect x="4" y="4" width="892" height="322" rx="14" fill="url(#bg)" stroke="#6c63c7" stroke-width="2"/>
+  <rect x="12" y="12" width="876" height="306" rx="10" class="frame"/>
+  <text x="36" y="48" class="h">▶ PLAYER STATUS</text>
+  <text x="36" y="86" class="k">Name</text><text x="150" y="86" class="v">Thanawat Thipkaew  “OWEN”</text>
+  <text x="36" y="114" class="k">Origin</text><text x="150" y="114" class="v">Thailand 🇹🇭</text>
+  <text x="36" y="142" class="k">Class</text><text x="150" y="142" class="v">Computer Engineer</text>
+  <text x="36" y="170" class="k">Guild</text><text x="150" y="170" class="v">Prince of Songkla University</text>
+  <text x="36" y="198" class="k">Title</text><text x="150" y="198" class="v">Hackathon Champion 🏆</text>
+  <text x="36" y="246" class="h">▶ PASSIVE SKILLS</text>
+  <text x="36" y="274" class="k">⚡ Tool Hunter — tries every new tool, the day it drops</text>
+  <text x="36" y="298" class="k">🎮 Gamer · 📚 Manga reader · 🖥️ Lives at the keyboard</text>
+  <line x1="480" y1="36" x2="480" y2="220" stroke="#6c63c7" stroke-opacity=".6"/>
+  <text x="510" y="48" class="h">▶ STATS</text>
+  <g>
+    <text x="510" y="88" class="k">Software</text>
+    <rect x="640" y="76" width="220" height="14" rx="7" fill="#0c0f2e"/>
+    <rect x="640" y="76" width="200" height="14" rx="7" fill="url(#bar)" class="fill"/>
+    <text x="510" y="126" class="k">AI Agents</text>
+    <rect x="640" y="114" width="220" height="14" rx="7" fill="#0c0f2e"/>
+    <rect x="640" y="114" width="210" height="14" rx="7" fill="url(#bar)" class="fill" style="animation-delay:.2s"/>
+    <text x="510" y="164" class="k">Network</text>
+    <rect x="640" y="152" width="220" height="14" rx="7" fill="#0c0f2e"/>
+    <rect x="640" y="152" width="180" height="14" rx="7" fill="url(#bar)" class="fill" style="animation-delay:.4s"/>
+    <text x="510" y="202" class="k">Curiosity</text>
+    <rect x="640" y="190" width="220" height="14" rx="7" fill="#0c0f2e"/>
+    <rect x="640" y="190" width="220" height="14" rx="7" fill="#e63946" class="fill" style="animation-delay:.6s"/>
+  </g>
+  <text x="510" y="274" class="mono" font-size="14" fill="#a9b0e0">&gt; status: building something new</text>
+  <rect x="770" y="262" width="9" height="16" fill="#f6a65a" class="cur"/>
+</svg>
