@@ -18,7 +18,7 @@ New tools come out every day and I can't help trying them. Half my project ideas
 
 <div align="center"><img src="./assets/player.svg" width="100%" alt="about"/></div>
 
-### what I'm working on
+### quest log
 
 <div align="center"><img src="./assets/quests.svg" width="100%" alt="projects"/></div>
 
