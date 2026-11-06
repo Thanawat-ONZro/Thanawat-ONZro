@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230">
+  <defs><linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe08a"/><stop offset="1" stop-color="#e09b1a"/></linearGradient></defs>
   <style>
     text{font-family:'Segoe UI',Ubuntu,'Noto Sans Thai','Leelawadee UI',sans-serif;fill:#e9e6f5}
     .t{font-size:22px;font-weight:700}.d{font-size:15px;fill:#a9a4cc}.m{font-family:'JetBrains Mono',Consolas,monospace;font-size:12px;letter-spacing:2px}
     .line{stroke:#e63946;stroke-width:2;stroke-dasharray:4 6;animation:mv 3s linear infinite}
     @keyframes mv{to{stroke-dashoffset:-40}}
     .p{animation:pl 2.4s ease-in-out infinite}@keyframes pl{50%{opacity:.25}}
+    .sp{animation:pl 1.8s ease-in-out infinite}
   </style>
   <rect x="1" y="1" width="898" height="228" rx="10" fill="#15122e" stroke="#2f2a55"/>
   <line x1="40" y1="62" x2="40" y2="168" class="line"/>
@@ -12,7 +14,15 @@
   <text x="70" y="44" class="m" fill="#f6a65a" style="fill:#f6a65a">DONE</text>
   <text x="70" y="70" class="t">Wathasin</text>
   <text x="70" y="94" class="d">ฝึกพูดกับ AI ก่อนใช้จริง: practice pitches and interviews with an AI first</text>
-  <text x="70" y="116" class="d">co-founder · 🏆 won JUMP Thailand Hackathon 2026</text>
+  <g transform="translate(70 101)">
+    <path d="M3 2 H17 V7 A7 7 0 0 1 3 7 Z" fill="url(#gold)"/>
+    <path d="M3 3 H0 V5 A4 4 0 0 0 4 9 M17 3 H20 V5 A4 4 0 0 1 16 9" fill="none" stroke="#f2b632" stroke-width="1.6"/>
+    <rect x="8.5" y="13" width="3" height="3" fill="#d99a1e"/>
+    <rect x="5" y="16" width="10" height="3" rx="1" fill="url(#gold)"/>
+    <path d="M10 4.2 l1 2 2.2.3 -1.6 1.5 .4 2.2 -2-1 -2 1 .4-2.2 -1.6-1.5 2.2-.3z" fill="#fff6d5"/>
+    <circle class="sp" cx="20" cy="0" r="1.4" fill="#fff"/>
+  </g>
+  <text x="96" y="116" class="d"><tspan style="fill:#ffd166">won JUMP Thailand Hackathon 2026</tspan> · co-founder</text>
   <circle cx="40" cy="176" r="7" fill="none" stroke="#8f8ab8" stroke-width="2" class="p"/>
   <text x="70" y="166" class="m" style="fill:#8f8ab8">IN PROGRESS</text>
   <text x="70" y="192" class="t">something new</text>

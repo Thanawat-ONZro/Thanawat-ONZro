@@ -24,8 +24,8 @@ New tools come out every day and I can't help trying them. Half my project ideas
 
 <div align="center">
 
-<a href="https://wathasin.workboard.live"><img src="https://img.shields.io/badge/wathasin.workboard.live-e63946?style=flat-square&labelColor=15122e"/></a>
-<a href="https://www.facebook.com/profile.php?id=61593569230053"><img src="https://img.shields.io/badge/wathasin_on_facebook-6c63c7?style=flat-square&logo=facebook&logoColor=white"/></a>
+<a href="https://wathasin.workboard.live"><img src="https://img.shields.io/badge/Try_Wathasin-wathasin.workboard.live-e63946?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=15122e"/></a>
+<a href="https://www.facebook.com/profile.php?id=61593569230053"><img src="https://img.shields.io/badge/Wathasin_Page-Contact-3b5998?style=for-the-badge&logo=facebook&logoColor=white&labelColor=15122e"/></a>
 
 </div>
 
