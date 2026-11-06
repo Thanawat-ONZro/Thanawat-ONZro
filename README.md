@@ -10,36 +10,27 @@
 
 </div>
 
-### 🌠 About me
+### about
 
-Hey! I'm **Thanawat Thipkaew** — just call me **OWEN**. A Thai guy studying **Computer Engineering at PSU**, into **software, networks and AI agents**.
+I'm Owen, Thai, studying computer engineering at PSU. Mostly I mess around with software, networks and AI agents.
 
-Every day new tools drop, and I like to grab them, actually use them, and turn what I learn into ideas for the next thing to build. Off the clock I'm gaming, reading manga, or (honestly) still at my computer.
+New tools come out every day and I can't help trying them. Half my project ideas start that way.
 
-<div align="center"><img src="./assets/player.svg" width="100%" alt="player status"/></div>
+<div align="center"><img src="./assets/player.svg" width="100%" alt="about"/></div>
 
-### 🗺️ Quest log
+### what I'm working on
 
-<div align="center"><img src="./assets/quests.svg" width="100%" alt="quest log"/></div>
+<div align="center"><img src="./assets/quests.svg" width="100%" alt="projects"/></div>
 
 <div align="center">
 
-<a href="https://wathasin.workboard.live"><img src="https://img.shields.io/badge/Try_Wathasin-wathasin.workboard.live-e63946?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=141a46"/></a>
-<a href="https://www.facebook.com/profile.php?id=61593569230053"><img src="https://img.shields.io/badge/Wathasin_Page-Contact-3b5998?style=for-the-badge&logo=facebook&logoColor=white&labelColor=141a46"/></a>
+<a href="https://wathasin.workboard.live"><img src="https://img.shields.io/badge/wathasin.workboard.live-e63946?style=flat-square&labelColor=15122e"/></a>
+<a href="https://www.facebook.com/profile.php?id=61593569230053"><img src="https://img.shields.io/badge/wathasin_on_facebook-6c63c7?style=flat-square&logo=facebook&logoColor=white"/></a>
 
 </div>
 
-### ⚔️ Inventory
+### stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,react,nodejs,rust,tauri,linux,docker,git,arduino&theme=dark&perline=12" alt="skills"/>
-</div>
-
-### 📊 Battle record
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Thanawat-ONZro&show_icons=true&hide_border=true&bg_color=141a46&title_color=f6a65a&icon_color=e05a8e&text_color=eef0ff&ring_color=e63946"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thanawat-ONZro&layout=compact&hide_border=true&bg_color=141a46&title_color=f6a65a&text_color=eef0ff"/>
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Thanawat-ONZro&hide_border=true&background=141a46&ring=e63946&fire=f6a65a&currStreakLabel=f6a65a&sideLabels=eef0ff&currStreakNum=eef0ff&sideNums=eef0ff&dates=a9b0e0&stroke=6c63c7"/>
 </div>
